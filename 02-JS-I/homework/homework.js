@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return "str";
+  return str;
 }
 
 function suma(x, y) {
@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length === str1,length) {
+  if (str1.length === str2.length) {
     return true;
   }
   else {
@@ -182,8 +182,8 @@ function esPositivo(numero) {
   else if (numero > 0) {
   return "Es positivo";
   }
-  else (numero < 0) {
-    return "Es neagtivo";
+  else {
+    return "Es negativo";
   } 
 }
 
@@ -191,7 +191,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return "str" + "!";
+  return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
@@ -218,7 +218,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return Math.pow (lado, 2);
+  return lado * 4;
 }
 
 
@@ -233,7 +233,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1,2;
+  return euro * 1.2;
 }
 
 
