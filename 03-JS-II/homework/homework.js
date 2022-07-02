@@ -11,7 +11,8 @@ function obtenerMayor(x, y) {
   else if (x < y) {
     return y;
   }
-  else (x === y) {
+  else (x === y) 
+  {
     return x || y;
   }
 }
@@ -74,19 +75,15 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  Switch (color) {
+  switch (color) {
     case "blue":
       return "This is blue";
-      break;
     case "red":
       return "This is red";
-      break;
     case "green":
       return "This is green";
-      break;
     case "orange":
       return "This is orange";
-      break;
     default:
       return "Color not found";
   }
