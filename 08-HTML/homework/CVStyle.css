@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(226, 226, 226);
+    ;
+                    
+}
+#tituloDivId {
+    left: 0px;
+    width: 320px;
+    max-width: 320px;
+
+}
+.leftContDivClass {
+    position: absolute;
+    left: 0px;
+    width: 320px;
+    max-width: 320px;
+    background-color: rgb(123, 123, 123);
+    color: rgb(209, 209, 209); 
+    line-height: 1.5rem;
+    
+}
+img {
+    display: block;
+    max-width: 200px;
+    max-height: 400px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#datosDivId {
+    width: 280px;
+    max-width: 320px;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+#skillsDivId {
+    width: 280px;
+    max-width: 320px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    
+}
+#hobbiesDivId {
+    width: 280px;
+    max-width: 320px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+
+}
+.bioDivClass {
+    position: relative;
+    margin-left: 350px;
+    text-align: justify;
+    max-width: 70%;
+    line-height: 2.5rem;
+}
+.finalDivClass {
+    position: relative;
+    margin-left: 350px;
+    margin-top: 50px;
+    text-align: justify;
+    max-width: 70%;
+    line-height: 2.5rem;
+}
+h1 {
+    color: rgb(22, 22, 22);
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: black;
+}
+h4 {
+    color: rgb(49, 49, 49);
+    font-style: italic;
+}
